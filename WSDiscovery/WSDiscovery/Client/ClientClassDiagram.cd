@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Masieri.ServiceModel.WSDiscovery.DiscoveryClient&lt;TChannel&gt;">
+    <Position X="0.5" Y="1" Width="2.75" />
+    <Members>
+      <Field Name="_channelFactory" Hidden="true" />
+      <Field Name="_discoveryProxyAddress" Hidden="true" />
+      <Field Name="_dynamicProxy" Hidden="true" />
+      <Field Name="_lastBinding" Hidden="true" />
+      <Field Name="_lastUsedChannel" Hidden="true" />
+      <Field Name="_lock" Hidden="true" />
+      <Field Name="_manualResetEvent" Hidden="true" />
+      <Field Name="_multicastListener" Hidden="true" />
+      <Method Name="_multicastListener_MessageArrived" Hidden="true" />
+      <Field Name="_probeMessageID" Hidden="true" />
+      <Field Name="_probeProbeMatchListener" Hidden="true" />
+      <Method Name="_probeProbeMatchListener_MessageArrived" Hidden="true" />
+      <Field Name="_resolveMessageID" Hidden="true" />
+      <Field Name="_scopes" Hidden="true" />
+      <Method Name="CreateChannel" Hidden="true" />
+      <Field Name="DiscoveryTimeout" Hidden="true" />
+      <Method Name="GetFactory" Hidden="true" />
+      <Method Name="InitializeIstance" Hidden="true" />
+      <Method Name="InvocationHandler" Hidden="true" />
+      <Event Name="Invoked" Hidden="true" />
+      <Event Name="Invoking" Hidden="true" />
+      <Method Name="OnInvoked" Hidden="true" />
+      <Method Name="OnInvoking" Hidden="true" />
+      <Method Name="StartProbeProcess" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EAAgAAMgAbCQECAhwAALAACAIgCAAAAAgAEEAAACAAA=</HashCode>
+      <FileName>DiscoveryClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Masieri.ServiceModel.WSDiscovery.Client.ClientContext">
+    <Position X="0.5" Y="3.75" Width="2.5" />
+    <Members>
+      <Field Name="_instance" Hidden="true" />
+      <Field Name="_lockObject" Hidden="true" />
+      <Field Name="_rwLock" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAgEEAAAAAAAAAAAAACAAAEAIAAAAAAAAAAAAAAAAQI=</HashCode>
+      <FileName>Client\ClientContext.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Masieri.ServiceModel.WSDiscovery.Client.ClientMemento">
+    <Position X="3.75" Y="2" Width="2.75" />
+    <Members>
+      <Field Name="_endpoint" Hidden="true" />
+      <Field Name="_mexWaiting" Hidden="true" />
+      <Field Name="_XAddrs" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAACACAEAgAAAACAAAAIACYQEAAAAiCQA=</HashCode>
+      <FileName>Client\ClientMemento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>

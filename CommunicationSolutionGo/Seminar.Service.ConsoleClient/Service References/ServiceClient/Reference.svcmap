@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0dc46cd9-bdad-4c95-8ce1-bcf61dff91c1" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="https://svc.meinefirma.de:4443/UserService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="UserService2.wsdl" MetadataType="Wsdl" ID="8b07d343-e6b7-4860-b471-fb1f133fcd7d" SourceId="1" SourceUrl="https://svc.meinefirma.de:4443/UserService.svc?wsdl" />
+    <MetadataFile FileName="UserService4.xsd" MetadataType="Schema" ID="772fd34c-20f7-4611-8eb1-db96f6413302" SourceId="1" SourceUrl="https://svc.meinefirma.de:4443/UserService.svc?xsd=xsd3" />
+    <MetadataFile FileName="UserService41.xsd" MetadataType="Schema" ID="4387a8d2-44fe-49d3-bf1f-65fe7b395e25" SourceId="1" SourceUrl="https://svc.meinefirma.de:4443/UserService.svc?xsd=xsd2" />
+    <MetadataFile FileName="UserService.disco" MetadataType="Disco" ID="da3baa39-2a40-47c3-a95d-1671200760f6" SourceId="1" SourceUrl="https://svc.meinefirma.de:4443/UserService.svc?disco" />
+    <MetadataFile FileName="UserService42.xsd" MetadataType="Schema" ID="e67c2679-2a7d-4d00-b90a-c8b0c2952f08" SourceId="1" SourceUrl="https://svc.meinefirma.de:4443/UserService.svc?xsd=xsd1" />
+    <MetadataFile FileName="UserService21.wsdl" MetadataType="Wsdl" ID="0af6cca6-dd1e-4893-8828-caf87a237b6d" SourceId="1" SourceUrl="https://svc.meinefirma.de:4443/UserService.svc?wsdl=wsdl0" />
+    <MetadataFile FileName="UserService43.xsd" MetadataType="Schema" ID="5090b6f0-2a46-4296-8baa-6cbdb6e4431e" SourceId="1" SourceUrl="https://svc.meinefirma.de:4443/UserService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
